@@ -1,7 +1,5 @@
 const CounterGroupGenerator = (props) => {
-  const { size } = props;
-  const { setSize } = props;
-  const { handleReset } = props;
+  const { size, setSize, handleReset } = props;
 
   const hanldeSizeChange = (event) => {
     if (parseInt(event.target.value) > 20) {
