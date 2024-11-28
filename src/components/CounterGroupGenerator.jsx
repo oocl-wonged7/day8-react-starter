@@ -6,7 +6,8 @@ const CounterGroupGenerator = (props) => {
       setSize(20);
     } else if (parseInt(event.target.value) < 0) {
       setSize(0);
-    } else {
+    } 
+    else {
       setSize(parseInt(event.target.value));
     }
   };

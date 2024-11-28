@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from "react";
 const Counter = (props) => {
   const { index, countList, setCountList, sum, setSum } = props;
 

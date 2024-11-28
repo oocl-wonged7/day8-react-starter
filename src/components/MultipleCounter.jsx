@@ -11,7 +11,7 @@ const MultipleCounter = () => {
   const [countList, setCountList] = useState(Array(5).fill(0));
 
   const handleReset = () => {
-    if (size != sizeWhenReset) {
+    if (size !== sizeWhenReset) {
       setSizeWhenReset(size);
       setCountList(Array(size).fill(0));
       setSum(0);

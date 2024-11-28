@@ -9,7 +9,7 @@ const CounterGroup = (props) => {
             index={index}
             countList={countList}
             setCountList={setCountList}
-            key={Math.random}
+            key={Math.random()}
             sum={sum}
             setSum={setSum}
           />
